@@ -1,0 +1,107 @@
+@font-face{
+    font-family: "PressStart";
+    src: url("PressStart2P-Regular.ttf");
+}
+
+body {
+    background: #E8EFD3;
+}
+
+h1 {
+    font-family: PressStart;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-family: PressStart;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;  
+}
+
+#first-card {
+    
+    width: 25%;
+    height: 610px;
+    background: #172515;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+
+.card{
+    background: rgba(71, 122, 86, 0.81);
+    border-radius: 40px;
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-right: 5%;
+    margin-top: 8%;
+    
+}
+#explanation-card{
+    right:0;
+}
+
+#question-card{
+    left: 400px;
+    display: none;
+}
+#answer-card{
+    left: 850px;
+    display: none;
+}
+
+#cipher-txt{
+    background-color: #E8EFD3;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#offset{
+    background-color: #E8EFD3;
+    border: none;
+    margin-left:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#submit-btn{
+    background-color: #E8EFD3;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    margin:20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#submit-btn:hover{
+    background-color: #477A56;
+    border: 2px solid #E8EFD3;
+    color:white;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+    background-color: #477A56;
+    
+    border: 2px solid #477A56;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 20%;
+}
+
+
+.btn:hover {
+    background-color: #172515;
+}
