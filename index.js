@@ -31,9 +31,9 @@ var texto2 = document.getElementById("answer-text");
 var offset = document.getElementById("offset");
 
 sbt_btn.addEventListener("click", () => {
-  console.log("texto: " + texto.value);
-  console.log("offset: " + offset.value);
-  texto2.innerText= texto.value;
-  var aa = cipher.crypto(texto.value, offset.value);
-  console.log(aa);
+  
+  let tt= cipher.crypto(texto.value, offset.value);
+
+  texto2.innerText = tt;
+
 });
