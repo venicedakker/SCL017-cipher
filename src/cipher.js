@@ -1,7 +1,11 @@
 const cipher = {
-  encrypt: function encrypt(txt, offset) {
-    let output ="";
+  encode: function encode(txt, offset) {
+
     offset = parseInt(offset);
+    if (offset<0){
+      offset = 26+(offset%26);
+    }
+    let output = "";
     let c = "";
     let aux1;
     for (let i = 0; i < txt.length; i++) {
@@ -13,13 +17,16 @@ const cipher = {
         c = String.fromCharCode(((aux1 - 97 + offset) % 26) + 97);
       }
 
-      output+=c;
+      output += c;
     }
     return output;
   },
-  decrypt: function decrypt(txt,offset){
-    let output ="";
+  decode: function decode(txt, offset) {
     offset = parseInt(offset);
+    if (offset<0){
+      offset = 26+(offset%26);
+    }
+    let output = "";
     let c = "";
     let aux1;
     for (let i = 0; i < txt.length; i++) {
@@ -31,7 +38,6 @@ const cipher = {
         c = String.fromCharCode(((aux1 - 97 - offset) % 26) + 97);
       }
 
-      output+=c;
     }
     return output;
   }

@@ -14,13 +14,9 @@
             Encryption
         </h1>
 
-        <button class="btn" id="cpr-btn" type = "submit">
-            Cifrar
+        <button class="btn" id="start-btn" type = "submit">
+            Comencemos
         </button>
-        <button class="btn" id="dcpr-btn" type="submit">
-            Descifrar
-        </button>
-
     </div>
 
     <div class="card" id="explanation-card">
@@ -30,21 +26,20 @@
     </div>
    
     <div class = "card" id="question-card">
-        <h3 id="tittle" > cipher</h3>
+        <h3 id="tittle" > ¿Que deseas hacer?</h3>
         <form action="">
-            <textarea name="cipher_text" id="txt" cols="30" rows="15" value ="text-cp" ></textarea>
+            <textarea name="text" id="txt" cols="30" rows="15" value ="text-cp" ></textarea>
             <br>
             <input name ="offset" type="number" id = "offset" value= "offset" placeholder="Offset">
             <br>
-            <input type="button" value="submit" id="submit-btn">
+            <input type="button" value="Cifrar" id="encode-btn" class = "btn-sub">
+            <input type="button" value="Descifrar" id="decode-btn" class =  "btn-sub">
             
         </form>
     </div>
    
     <div class="card" id="answer-card">
-        <p class="p-section" id="answer-text">
-
-        </p>
+        <p class="p-section" id="answer-text"></p>
     </div>
 
     <script src="index.js" type="module"></script>
