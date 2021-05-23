@@ -32,7 +32,7 @@ var offset = document.getElementById("offset");
 
 sbt_btn.addEventListener("click", () => {
   
-  let tt= cipher.crypto(texto.value, offset.value);
+  let tt= cipher.decrypt(texto.value, offset.value);
 
   texto2.innerText = tt;
 
