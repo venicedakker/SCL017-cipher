@@ -22,7 +22,8 @@ h3 {
 p {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    text-align: center;
+    text-align: justify;
+    margin: 10px;
 }
 
 .card {
