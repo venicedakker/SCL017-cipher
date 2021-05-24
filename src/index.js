@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+//console.log(cipher);
 
 // click del boton de cifrado - llega a la pagina para poner el texto y offset
 document.getElementById("start-btn").addEventListener('click', () => {
@@ -18,7 +18,7 @@ const offset = document.getElementById("offset");
 const decode_btn = document.getElementById("decode-btn")
 
 encode_btn.addEventListener("click", () => {
-  
+
   let tt= cipher.encode( offset.value,text.value);
 
   text2.innerText = tt;

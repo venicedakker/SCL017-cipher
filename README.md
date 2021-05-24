@@ -1,4 +1,25 @@
-# Cifrado César
+# Cifrado César - Valeria Argomedo
+
+### Explicación de la aplicación
+
+Mi aplicación utiliza el "Cifrado Cesar" para cifrar y descifrar claves que serán usadas en un juego de *Escape Room* llamado **Encryption**.
+En este se le entregaran a los jugadores diferentes frases las cuales le ayudaran a descubirir las claves para poder avanzar en el juego y así eventualmente poder escapar. 
+
+En la pagina de inicio se encuentra una breve iniciación al juego, luego al apretar el boton **Comenzar**, se redirige a la página que le permite al jugador escribir las claves, decidir el offset y si va a cifrar o descifrar el mensaje. 
+
+El offset mensionado anteriormente se refiere al valor numérico con el cual se correran las letras del alfaveto y así poder cifrar y descifrar las frases entregadas.  
+
+### Objetivos anteriores al comienzo del proyecto
+[] Entender la diferencia de las variables (const y let).
+[] Trabajar en mis formatos de Nomenclatura.
+[] Mejorar la eficiencia de los codigos (que no hayan lineas redundantes).
+[] Leer sobre el DOM.
+[] Entender como se obtiene un valor entregado por el usuario (en js).
+[] Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
+
+### Prototipo de baja fidelidad
+[prototipo_Valeria_Argomedo_Home](Prototipo_Valeria_Argomedo_1.png)
+[prototipo_Valeria_Argomedo_Page](Prototipo_Valeria_Argomedo_2.png)
 
 ## Índice
 
