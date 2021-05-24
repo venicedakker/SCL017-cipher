@@ -17,7 +17,9 @@ const cipher = {
         cChar = String.fromCharCode(((char - 65 + offset) % 26) + 65);
       } else if (char >= 97 && char <= 122) {
         cChar = String.fromCharCode(((char - 97 + offset) % 26) + 97);
-      }
+     }else if (char == 32){
+       cChar = " ";
+     }
 
       output += cChar;
     }
@@ -39,6 +41,8 @@ const cipher = {
         cChar = String.fromCharCode(((char - 65 - offset) % 26) + 65);
       } else if (char >= 97 && char <= 122) {
         cChar = String.fromCharCode(((char - 97 - offset) % 26) + 97);
+      }else if (char == 32){
+        cChar = " ";
       }
       output += cChar;
     }
