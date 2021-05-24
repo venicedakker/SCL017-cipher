@@ -10,16 +10,16 @@ En la pagina de inicio se encuentra una breve iniciación al juego, luego al apr
 El offset mensionado anteriormente se refiere al valor numérico con el cual se correran las letras del alfaveto y así poder cifrar y descifrar las frases entregadas.  
 
 ### Objetivos anteriores al comienzo del proyecto
-[] Entender la diferencia de las variables (const y let).
-[] Trabajar en mis formatos de Nomenclatura.
-[] Mejorar la eficiencia de los codigos (que no hayan lineas redundantes).
-[] Leer sobre el DOM.
-[] Entender como se obtiene un valor entregado por el usuario (en js).
-[] Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
+- Entender la diferencia de las variables (const y let).
+- Trabajar en mis formatos de Nomenclatura.
+- Mejorar la eficiencia de los codigos (que no hayan lineas redundantes).
+- Leer sobre el DOM.
+- Entender como se obtiene un valor entregado por el usuario (en js).
+- Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
 
 ### Prototipo de baja fidelidad
-[prototipo_Valeria_Argomedo_Home](Prototipo_Valeria_Argomedo_1.png)
-[prototipo_Valeria_Argomedo_Page](Prototipo_Valeria_Argomedo_2.png)
+![prototipo_Valeria_Argomedo_Home](Prototipo_Valeria_Argomedo_1.png)
+![prototipo_Valeria_Argomedo_Page](Prototipo_Valeria_Argomedo_2.png)
 
 ## Índice
 
