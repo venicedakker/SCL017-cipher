@@ -5,20 +5,23 @@ const cipher = {
     if (offset<0){
       offset = 26+(offset%26);
     }
-    let output = "";
-    let c = "";
-    let aux1;
-    for (let i = 0; i < txt.length; i++) {
-      aux1 = txt.charCodeAt(i);
 
-      if (aux1 >= 65 && aux1 <= 90) {
-        c = String.fromCharCode(((aux1 - 65 + offset) % 26) + 65);
-      } else if (aux1 >= 97 && aux1 <= 122) {
-        c = String.fromCharCode(((aux1 - 97 + offset) % 26) + 97);
+    let output = "";
+    let cChar = "";
+    let char;
+    
+    for (let i = 0; i < txt.length; i++) {
+      char = txt.charCodeAt(i);
+
+      if (char >= 65 && char <= 90) {
+        cChar = String.fromCharCode(((char - 65 + offset) % 26) + 65);
+      } else if (char >= 97 && char <= 122) {
+        cChar = String.fromCharCode(((char - 97 + offset) % 26) + 97);
       }
 
-      output += c;
+      output += cChar;
     }
+    
     return output;
   },
   decode: function decode(txt, offset) {
@@ -27,26 +30,20 @@ const cipher = {
       offset = 26+(offset%26);
     }
     let output = "";
-    let c = "";
-    let aux1;
+    let cChar = "";
+    let char;
     for (let i = 0; i < txt.length; i++) {
-      aux1 = txt.charCodeAt(i);
+      char = txt.charCodeAt(i);
 
-      if (aux1 >= 65 && aux1 <= 90) {
-        c = String.fromCharCode(((aux1 - 65 - offset) % 26) + 65);
-      } else if (aux1 >= 97 && aux1 <= 122) {
-        c = String.fromCharCode(((aux1 - 97 - offset) % 26) + 97);
+      if (char >= 65 && char <= 90) {
+        cChar = String.fromCharCode(((char - 65 - offset) % 26) + 65);
+      } else if (char >= 97 && char <= 122) {
+        cChar = String.fromCharCode(((char - 97 - offset) % 26) + 97);
       }
-
+      output += cChar;
     }
     return output;
   }
-
-
-
-
-
-
 };
 
 export default cipher;
