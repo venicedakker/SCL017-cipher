@@ -54,6 +54,7 @@ p {
 #question-card {
     left: 400px;
     display: none;
+    text-align: center;
 }
 
 #answer-card {
