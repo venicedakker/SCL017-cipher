@@ -18,7 +18,7 @@ El offset mensionado anteriormente se refiere al valor numérico con el cual se 
 - Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
 
 ### Prototipo de baja fidelidad en Figma
-[prototipo_Valeria_Argomedo](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
+[Prototipo de baja fidelidad](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
 
 ## Índice
 
