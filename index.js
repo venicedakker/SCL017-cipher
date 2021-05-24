@@ -19,14 +19,14 @@ const decode_btn = document.getElementById("decode-btn")
 
 encode_btn.addEventListener("click", () => {
   
-  let tt= cipher.encode(text.value, offset.value);
+  let tt= cipher.encode( offset.value,text.value);
 
   text2.innerText = tt;
 
 });
 decode_btn.addEventListener("click", () => {
   
-  let tt= cipher.decode(text.value, offset.value);
+  let tt= cipher.decode( offset.value,text.value);
 
   text2.innerText = tt;
 

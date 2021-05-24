@@ -1,5 +1,5 @@
 const cipher = {
-  encode: function encode(txt, offset) {
+  encode: function encode(offset,txt) {
 
     offset = parseInt(offset);
     if (offset<0){
@@ -24,7 +24,7 @@ const cipher = {
     
     return output;
   },
-  decode: function decode(txt, offset) {
+  decode: function decode(offset,txt) {
     offset = parseInt(offset);
     if (offset<0){
       offset = 26+(offset%26);
