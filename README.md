@@ -17,9 +17,8 @@ El offset mensionado anteriormente se refiere al valor numérico con el cual se 
 - Entender como se obtiene un valor entregado por el usuario (en js).
 - Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
 
-### Prototipo de baja fidelidad
-[prototipo_Valeria_Argomedo_Home](../../src/Prototipo_Valeria_Argomedo_1.png)
-[prototipo_Valeria_Argomedo_Page](../../src/Prototipo_Valeria_Argomedo_2.png)
+### Prototipo de baja fidelidad en Figma
+[prototipo_Valeria_Argomedo](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
 
 ## Índice
 
