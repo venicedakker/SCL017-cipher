@@ -20,6 +20,8 @@ El offset mensionado anteriormente se refiere al valor numérico con el cual se 
 ### Prototipo de baja fidelidad en Figma
 [Prototipo de baja fidelidad](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
 
+***
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)

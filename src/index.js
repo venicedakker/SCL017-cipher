@@ -14,19 +14,20 @@ document.getElementById("start-btn").addEventListener('click', () => {
 const text = document.getElementById("txt");
 const encode_btn = document.getElementById("encode-btn");
 const text2 = document.getElementById("answer-text");
-const offset = document.getElementById("offset");
+const shift = document.getElementById("offset");
 const decode_btn = document.getElementById("decode-btn")
 
+const offset = parseInt(shift.value);
 encode_btn.addEventListener("click", () => {
 
-  let tt= cipher.encode( offset.value,text.value);
+  let tt= cipher.encode( offset,text.value);
 
   text2.innerText = tt;
 
 });
 decode_btn.addEventListener("click", () => {
   
-  let tt= cipher.decode( offset.value,text.value);
+  let tt= cipher.decode( offset,text.value);
 
   text2.innerText = tt;
 
