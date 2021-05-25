@@ -40,7 +40,7 @@ const cipher = {
       throw new TypeError("Error: text not a string");
     }
 
-    const shift = (26 - offset) % 26;
+    const shift = ((26-offset)%26);
     
     let output = "";
     let cChar = "";
@@ -48,11 +48,14 @@ const cipher = {
 
     for (let i = 0; i < txt.length; i++) {
       char = txt.charCodeAt(i);
-
+    
       if (char >= 65 && char <= 90) {
-        cChar = String.fromCharCode(((char - 65 + shift) % 26) + 65);
+        
+        cChar = String.fromCharCode(((char - 65 + shift+26) %26) + 65);
+
+
       } else if (char >= 97 && char <= 122) {
-        cChar = String.fromCharCode(((char - 97 + shift) % 26) + 97);
+        cChar = String.fromCharCode(((char - 97 + shift+26) % 26) + 97);
       } else if (char == 32) {
         cChar = " ";
       }else{
