@@ -19,7 +19,7 @@ El offset mencionado anteriormente se refiere al valor numérico con el cual se 
 
 ### Prototipo de baja fidelidad en Figma
 Se hizo un prototipo de baja fidelidad en figma para así poder guiarse en la formulación del proyecto.
-Este prototipo fue cambiando a medida que se hizo la página web, ya que se encontraron distintas mejoras que ayudarían al entendimiento del funcionamiento de la aplicación web (user experience). 
+Este prototipo fue cambiando a medida que se hizo la página web, ya que se encontraron distintas mejoras que ayudarían al entendimiento del funcionamiento de la aplicación web. 
 [Prototipo de baja fidelidad](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
 
 ***
