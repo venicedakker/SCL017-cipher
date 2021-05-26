@@ -18,6 +18,8 @@ El offset mensionado anteriormente se refiere al valor numérico con el cual se 
 - Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
 
 ### Prototipo de baja fidelidad en Figma
+Se hizo un prototipo de baja fidelidad en figma para poder así poder guiarse en la formulación del proyecto.
+Este prototipo fue cambiando a medida que se hizo la pagina web, ya que se encontraron distintas mejoras que ayudarian al entendimiento del funcionamiento de la aplicación web (user experience). 
 [Prototipo de baja fidelidad](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
 
 ***
