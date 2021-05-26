@@ -2,24 +2,24 @@
 
 ### Explicación de la aplicación
 
-Mi aplicación utiliza el "Cifrado Cesar" para cifrar y descifrar claves que serán usadas en un juego de *Escape Room* llamado **Encryption**.
-En este se le entregaran a los jugadores diferentes frases las cuales le ayudaran a descubirir las claves para poder avanzar en el juego y así eventualmente poder escapar. 
+Mi aplicación utiliza el "Cifrado César" para cifrar y descifrar claves que serán usadas en un juego de *Escape Room* llamado **Encryption**.
+En este se le entregaran a los jugadores diferentes frases las cuales le ayudaran a descubrir las claves para poder avanzar en el juego y así eventualmente poder escapar de la habitación. 
 
-En la pagina de inicio se encuentra una breve iniciación al juego, luego al apretar el boton **Comenzar**, se redirige a la página que le permite al jugador escribir las claves, decidir el offset y si va a cifrar o descifrar el mensaje. 
+En la página de inicio se encuentra una breve iniciación al juego, luego al apretar el botón **Comenzar**, se redirige a la página que le permite al jugador escribir las claves, decidir el offset y si va a cifrar o descifrar un mensaje. 
 
-El offset mensionado anteriormente se refiere al valor numérico con el cual se correran las letras del alfaveto y así poder cifrar y descifrar las frases entregadas.  
+El offset mencionado anteriormente se refiere al valor numérico con el cual se correrán las letras del alfaveto y así poder cifrar y descifrar las frases entregadas.  
 
 ### Objetivos anteriores al comienzo del proyecto
 - Entender la diferencia de las variables (const y let).
 - Trabajar en mis formatos de Nomenclatura.
-- Mejorar la eficiencia de los codigos (que no hayan lineas redundantes).
+- Mejorar la eficiencia de los códigos (que no hayan líneas redundantes).
 - Leer sobre el DOM.
-- Entender como se obtiene un valor entregado por el usuario (en js).
-- Constantemente, hacer revisión del codigo y rework it, para así ir ordenando de mejor manera el codigo. 
+- Entender cómo se obtiene un valor entregado por el usuario (en js).
+- Constantemente, hacer revisión del código y rework it, para así ir ordenando de mejor manera el código. 
 
 ### Prototipo de baja fidelidad en Figma
-Se hizo un prototipo de baja fidelidad en figma para poder así poder guiarse en la formulación del proyecto.
-Este prototipo fue cambiando a medida que se hizo la pagina web, ya que se encontraron distintas mejoras que ayudarian al entendimiento del funcionamiento de la aplicación web (user experience). 
+Se hizo un prototipo de baja fidelidad en figma para así poder guiarse en la formulación del proyecto.
+Este prototipo fue cambiando a medida que se hizo la página web, ya que se encontraron distintas mejoras que ayudarían al entendimiento del funcionamiento de la aplicación web (user experience). 
 [Prototipo de baja fidelidad](https://www.figma.com/file/QASUf00OWUjz9ax7ZV8Hmw/Encryption)
 
 ***
